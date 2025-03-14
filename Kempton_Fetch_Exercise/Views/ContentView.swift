@@ -33,7 +33,7 @@ struct ContentView: View {
               Section(header: Text(cuisine).font(.headline)) {
                 // Use the specific cuisine recipes
                 ForEach(groupedRecipes[cuisine] ?? [], id: \.uuid) { recipe in
-                  Text(recipe.name)
+                  ReceipeItemView(recipe: recipe)
                 }
               }
             }
