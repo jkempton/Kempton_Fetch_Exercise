@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct Kempton_Fetch_ExerciseApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  
+  @StateObject var networkManager: NetworkManager
+
+  init() {
+    print("APP START 🚀")
+    let networkManager = NetworkManager()
+    _networkManager = StateObject(wrappedValue: networkManager)
+  }
+  
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
+        .environmentObject(networkManager)
     }
+  }
 }
