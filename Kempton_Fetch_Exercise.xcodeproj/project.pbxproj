@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8D879CEA2D8471FE00220E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D879CD12D8471FD00220E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D879CD82D8471FD00220E34;
+			remoteInfo = Kempton_Fetch_Exercise;
+		};
+		8D879CF42D8471FE00220E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D879CD12D8471FD00220E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D879CD82D8471FD00220E34;
+			remoteInfo = Kempton_Fetch_Exercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D879CD92D8471FD00220E34 /* Kempton_Fetch_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kempton_Fetch_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D879CE92D8471FE00220E34 /* Kempton_Fetch_ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kempton_Fetch_ExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D879CF32D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kempton_Fetch_ExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8D879CDB2D8471FD00220E34 /* Kempton_Fetch_Exercise */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kempton_Fetch_Exercise;
+			sourceTree = "<group>";
+		};
+		8D879CEC2D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kempton_Fetch_ExerciseTests;
+			sourceTree = "<group>";
+		};
+		8D879CF62D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Kempton_Fetch_ExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D879CD62D8471FD00220E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D879CE62D8471FE00220E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D879CF02D8471FE00220E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D879CD02D8471FD00220E34 = {
+			isa = PBXGroup;
+			children = (
+				8D879CDB2D8471FD00220E34 /* Kempton_Fetch_Exercise */,
+				8D879CEC2D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */,
+				8D879CF62D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests */,
+				8D879CDA2D8471FD00220E34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D879CDA2D8471FD00220E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D879CD92D8471FD00220E34 /* Kempton_Fetch_Exercise.app */,
+				8D879CE92D8471FE00220E34 /* Kempton_Fetch_ExerciseTests.xctest */,
+				8D879CF32D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D879CD82D8471FD00220E34 /* Kempton_Fetch_Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D879CFD2D8471FE00220E34 /* Build configuration list for PBXNativeTarget "Kempton_Fetch_Exercise" */;
+			buildPhases = (
+				8D879CD52D8471FD00220E34 /* Sources */,
+				8D879CD62D8471FD00220E34 /* Frameworks */,
+				8D879CD72D8471FD00220E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8D879CDB2D8471FD00220E34 /* Kempton_Fetch_Exercise */,
+			);
+			name = Kempton_Fetch_Exercise;
+			packageProductDependencies = (
+			);
+			productName = Kempton_Fetch_Exercise;
+			productReference = 8D879CD92D8471FD00220E34 /* Kempton_Fetch_Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D879CE82D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D879D002D8471FE00220E34 /* Build configuration list for PBXNativeTarget "Kempton_Fetch_ExerciseTests" */;
+			buildPhases = (
+				8D879CE52D8471FE00220E34 /* Sources */,
+				8D879CE62D8471FE00220E34 /* Frameworks */,
+				8D879CE72D8471FE00220E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D879CEB2D8471FE00220E34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D879CEC2D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */,
+			);
+			name = Kempton_Fetch_ExerciseTests;
+			packageProductDependencies = (
+			);
+			productName = Kempton_Fetch_ExerciseTests;
+			productReference = 8D879CE92D8471FE00220E34 /* Kempton_Fetch_ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D879CF22D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D879D032D8471FE00220E34 /* Build configuration list for PBXNativeTarget "Kempton_Fetch_ExerciseUITests" */;
+			buildPhases = (
+				8D879CEF2D8471FE00220E34 /* Sources */,
+				8D879CF02D8471FE00220E34 /* Frameworks */,
+				8D879CF12D8471FE00220E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D879CF52D8471FE00220E34 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8D879CF62D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests */,
+			);
+			name = Kempton_Fetch_ExerciseUITests;
+			packageProductDependencies = (
+			);
+			productName = Kempton_Fetch_ExerciseUITests;
+			productReference = 8D879CF32D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D879CD12D8471FD00220E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8D879CD82D8471FD00220E34 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					8D879CE82D8471FE00220E34 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8D879CD82D8471FD00220E34;
+					};
+					8D879CF22D8471FE00220E34 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 8D879CD82D8471FD00220E34;
+					};
+				};
+			};
+			buildConfigurationList = 8D879CD42D8471FD00220E34 /* Build configuration list for PBXProject "Kempton_Fetch_Exercise" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D879CD02D8471FD00220E34;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8D879CDA2D8471FD00220E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D879CD82D8471FD00220E34 /* Kempton_Fetch_Exercise */,
+				8D879CE82D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */,
+				8D879CF22D8471FE00220E34 /* Kempton_Fetch_ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D879CD72D8471FD00220E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D879CE72D8471FE00220E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D879CF12D8471FE00220E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D879CD52D8471FD00220E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D879CE52D8471FE00220E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D879CEF2D8471FE00220E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D879CEB2D8471FE00220E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D879CD82D8471FD00220E34 /* Kempton_Fetch_Exercise */;
+			targetProxy = 8D879CEA2D8471FE00220E34 /* PBXContainerItemProxy */;
+		};
+		8D879CF52D8471FE00220E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D879CD82D8471FD00220E34 /* Kempton_Fetch_Exercise */;
+			targetProxy = 8D879CF42D8471FE00220E34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D879CFB2D8471FE00220E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D879CFC2D8471FE00220E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D879CFE2D8471FE00220E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kempton_Fetch_Exercise/Preview Content\"";
+				DEVELOPMENT_TEAM = GEKA6TZJ8C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinKempton.Kempton-Fetch-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D879CFF2D8471FE00220E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Kempton_Fetch_Exercise/Preview Content\"";
+				DEVELOPMENT_TEAM = GEKA6TZJ8C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinKempton.Kempton-Fetch-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8D879D012D8471FE00220E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GEKA6TZJ8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinKempton.Kempton-Fetch-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kempton_Fetch_Exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kempton_Fetch_Exercise";
+			};
+			name = Debug;
+		};
+		8D879D022D8471FE00220E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GEKA6TZJ8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinKempton.Kempton-Fetch-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kempton_Fetch_Exercise.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kempton_Fetch_Exercise";
+			};
+			name = Release;
+		};
+		8D879D042D8471FE00220E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GEKA6TZJ8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinKempton.Kempton-Fetch-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kempton_Fetch_Exercise;
+			};
+			name = Debug;
+		};
+		8D879D052D8471FE00220E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GEKA6TZJ8C;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.justinKempton.Kempton-Fetch-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kempton_Fetch_Exercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D879CD42D8471FD00220E34 /* Build configuration list for PBXProject "Kempton_Fetch_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D879CFB2D8471FE00220E34 /* Debug */,
+				8D879CFC2D8471FE00220E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D879CFD2D8471FE00220E34 /* Build configuration list for PBXNativeTarget "Kempton_Fetch_Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D879CFE2D8471FE00220E34 /* Debug */,
+				8D879CFF2D8471FE00220E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D879D002D8471FE00220E34 /* Build configuration list for PBXNativeTarget "Kempton_Fetch_ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D879D012D8471FE00220E34 /* Debug */,
+				8D879D022D8471FE00220E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D879D032D8471FE00220E34 /* Build configuration list for PBXNativeTarget "Kempton_Fetch_ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D879D042D8471FE00220E34 /* Debug */,
+				8D879D052D8471FE00220E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D879CD12D8471FD00220E34 /* Project object */;
+}
