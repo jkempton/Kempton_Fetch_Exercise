@@ -35,11 +35,13 @@
 			membershipExceptions = (
 				Managers/DiskImageCacheManager.swift,
 				Managers/NetworkManager.swift,
+				Managers/RecipeManager.swift,
 				Models/Recipe.swift,
 				Views/CachedAsyncImageView.swift,
 				Views/ContentView.swift,
 				Views/ImageLoadingFailureView.swift,
 				Views/ReceipeItemView.swift,
+				Views/RecipeSearchView.swift,
 			);
 			target = 8D879CE82D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */;
 		};
