@@ -11,17 +11,21 @@ import SwiftUI
 struct Kempton_Fetch_ExerciseApp: App {
   
   @StateObject var networkManager: NetworkManager
+  @StateObject var diskImageCacheManager: DiskImageCacheManager
 
   init() {
     print("APP START 🚀")
     let networkManager = NetworkManager()
+    let diskImageCacheManager = DiskImageCacheManager()
     _networkManager = StateObject(wrappedValue: networkManager)
+    _diskImageCacheManager = StateObject(wrappedValue: diskImageCacheManager)
   }
   
   var body: some Scene {
     WindowGroup {
       ContentView()
         .environmentObject(networkManager)
+        .environmentObject(diskImageCacheManager)
     }
   }
 }

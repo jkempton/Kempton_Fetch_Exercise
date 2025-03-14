@@ -11,24 +11,16 @@ struct ReceipeItemView: View {
   let recipe: Recipe
   var body: some View {
     VStack(alignment: .leading) {
-      AsyncImage(url: URL(string: recipe.photoURLSmall)) { phase in
+      CachedAsyncImageView(url: URL(string: recipe.photoURLSmall)) { phase in
         switch phase {
         case .empty:
-          Rectangle()
-            .fill(.clear)
-            .frame(maxWidth: .infinity)
-            .aspectRatio(1, contentMode: .fit)
-            .overlay(
-              ProgressView()
-                .scaleEffect(3)
-            )
+          ProgressView()
         case .success(let image):
           image
             .resizable()
-            .frame(maxWidth: .infinity)
-            .aspectRatio(1, contentMode: .fit)
+            .frame(width: 100, height: 100)
         case .failure:
-          ImageLoadingFailureView(size: CGSize(width: 100, height: 100))
+          ImageLoadingFailureView(size: CGSize(width: 50, height: 50))
         @unknown default:
           let _ = print("Unexpected AsyncImagePhase case encountered.")
           fatalError()
@@ -52,4 +44,5 @@ struct ReceipeItemView: View {
                                  sourceURL: "https://www.bbcgoodfood.com/recipes/banana-pancakes",
                                  uuid: "123",
                                  youtubeURL: nil))
+  .environmentObject(DiskImageCacheManager())
 }

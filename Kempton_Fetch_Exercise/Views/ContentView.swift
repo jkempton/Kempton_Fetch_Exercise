@@ -58,5 +58,6 @@ struct ContentView: View {
 
 #Preview {
   ContentView()
+    .environmentObject(DiskImageCacheManager())
     .environmentObject(NetworkManager())
 }
