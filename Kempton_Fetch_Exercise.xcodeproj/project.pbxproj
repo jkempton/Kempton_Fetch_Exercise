@@ -33,7 +33,8 @@
 		8D879D072D8477FE00220E34 /* Exceptions for "Kempton_Fetch_Exercise" folder in "Kempton_Fetch_ExerciseTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				ContentView.swift,
+				Models/Recipe.swift,
+				Views/ContentView.swift,
 			);
 			target = 8D879CE82D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */;
 		};
