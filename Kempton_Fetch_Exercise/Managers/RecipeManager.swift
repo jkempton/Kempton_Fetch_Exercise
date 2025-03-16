@@ -10,13 +10,15 @@ import SwiftUI
 
 
 class RecipeManager: NSObject, ObservableObject {
+  let alertManager: AlertManager
   let networkManager: any NetworkManagerProtocol
   @Published private var recipes: [Recipe] = []
   @Published private(set) var sortedRecipes: [[Recipe]] = []
   @Published var recipeSearch = ""
   private var cancellables: Set<AnyCancellable> = []
   
-  init(networkManager: any NetworkManagerProtocol) {
+  init(alertManager: AlertManager, networkManager: any NetworkManagerProtocol) {
+    self.alertManager = alertManager
     self.networkManager = networkManager
     super.init()
     fetchRecipes()
@@ -50,6 +52,8 @@ class RecipeManager: NSObject, ObservableObject {
     Task { @MainActor in
       do {
         self.recipes = try await networkManager.fetchRecipes()
+      } catch let error as AlertError {
+        alertManager.alertError = error
       } catch {
         // If it's an error we don't specifically handle, just print it for now
         print("❌ An unexpected error occurred: \(error)")

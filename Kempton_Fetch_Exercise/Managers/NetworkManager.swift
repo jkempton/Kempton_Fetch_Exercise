@@ -33,19 +33,20 @@ class NetworkManager: NetworkManagerProtocol, ObservableObject {
     
     // Set default Content-Type for POST requests
     if method == .POST, headers["Content-Type"] == nil {
-      throw NSError(domain: "", code: 400, userInfo: [NSLocalizedDescriptionKey: "Missing Content-Type in POST request"])
+      // create a custom error
+      throw AlertError.customError(title: "Bad Request", subTitle: "Missing Content-Type in POST request")
     }
     
     let (data, response) = try await URLSession.shared.data(for: request)
     
     guard let httpResponse = response as? HTTPURLResponse else {
       // This handles the case where the response is NOT an HTTPURLResponse.
-      throw NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Bad Request"])
+      throw AlertError.badServerResponse
     }
     
     guard httpResponse.statusCode == 200 else {
       // we can get more detailed with individual error code messages and add cases the the AlertError enum as we scale
-      throw NSError(domain: "", code: httpResponse.statusCode, userInfo: [NSLocalizedDescriptionKey: "Unexpected response from the server."])
+      throw AlertError.customError(title: "Something Went Wrong", subTitle: "Unexpected response from the server. (Code: \(httpResponse.statusCode))")
     }
 
     do {
@@ -53,7 +54,7 @@ class NetworkManager: NetworkManagerProtocol, ObservableObject {
       return decodedData
     } catch {
       // Per directions showing an error with Malformed Data
-      throw NSError(domain: "", code: httpResponse.statusCode, userInfo: [NSLocalizedDescriptionKey: "The data format received is invalid."])
+      throw AlertError.customError(title: "Malformed Data", subTitle: "The data format received is invalid.")
     }
   }
 }

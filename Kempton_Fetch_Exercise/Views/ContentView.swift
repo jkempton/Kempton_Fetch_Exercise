@@ -26,7 +26,7 @@ struct ContentView: View {
               if let cuisine = recipes.first?.cuisine {
                 Section(header: Text(cuisine).font(.headline)) {
                   ForEach(recipes, id: \.uuid) { recipe in
-                    ReceipeItemView(recipe: recipe)
+                    RecipeItemView(recipe: recipe)
                   }
                 }
               }
@@ -50,5 +50,5 @@ struct ContentView: View {
 #Preview {
   ContentView()
     .environmentObject(DiskImageCacheManager())
-    .environmentObject(RecipeManager(networkManager: NetworkManager()))
+    .environmentObject(RecipeManager(alertManager: AlertManager(), networkManager: NetworkManager()))
 }
