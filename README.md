@@ -1,6 +1,7 @@
 ### Summary: Include screen shots or a video of your app highlighting its features
 ![Screenshot 2025-03-16 at 1 06 42 AM](https://github.com/user-attachments/assets/9df55c9f-80cd-4e85-99d6-016c1a0985cf)
-
+![Screenshot 2025-03-16 at 1 07 00 AM](https://github.com/user-attachments/assets/7783241f-9770-4350-9919-b1ac3f0a519f)
+![Screenshot 2025-03-16 at 1 07 24 AM](https://github.com/user-attachments/assets/752fa473-f16d-4c99-b233-2a171441d23b)
 
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 For this project, I focused primarily on two key requirements: "No External Dependencies" and "Efficient Network Usage" 
