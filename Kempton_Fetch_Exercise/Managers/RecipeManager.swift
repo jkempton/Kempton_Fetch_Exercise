@@ -8,10 +8,9 @@
 import Combine
 import SwiftUI
 
-
 class RecipeManager: NSObject, ObservableObject {
-  let alertManager: AlertManager
-  let networkManager: any NetworkManagerProtocol
+  private let alertManager: AlertManager
+  private let networkManager: any NetworkManagerProtocol
   @Published private var recipes: [Recipe] = []
   @Published private(set) var sortedRecipes: [[Recipe]] = []
   @Published var recipeSearch = ""

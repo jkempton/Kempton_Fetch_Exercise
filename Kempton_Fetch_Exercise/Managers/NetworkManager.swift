@@ -11,13 +11,18 @@ protocol NetworkManagerProtocol {
   func fetchRecipes() async throws -> [Recipe]
 }
 
-
 class NetworkManager: NetworkManagerProtocol, ObservableObject {
+  
+  // test legit JSON
+  private static let recipesURL = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes.json")!
+  // test malformed JSON
+  private static let recipesMalformedURL = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes-malformed.json")!
+  // test empty list
+  private static let recipesEmptyURL = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes-empty.json")!
   
   // add more individual network calls as we scale here
   func fetchRecipes() async throws -> [Recipe] {
-    let url = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes.json")!
-    return try await request(url: url, method: .GET, as: Recipes.self).recipes
+    return try await request(url: NetworkManager.recipesURL, method: .GET, as: Recipes.self).recipes
   }
   
   // Reusable API call for GET & POST requests

@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum AlertError: LocalizedError, Identifiable {
+enum AlertError: LocalizedError, Identifiable, Equatable {
   var id: String { errorDescription ?? UUID().uuidString }
   
   case badServerResponse

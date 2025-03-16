@@ -8,7 +8,13 @@
 import Foundation
 import SwiftUI
 
-class DiskImageCacheManager: NSObject, ObservableObject {
+protocol DiskImageCacheManagerProtocol {
+  func fileURL(for url: URL) -> URL
+  func save(image: UIImage, for url: URL) async
+  func load(for url: URL) -> UIImage?
+}
+
+class DiskImageCacheManager: NSObject, ObservableObject, DiskImageCacheManagerProtocol {
   private let fileManager = FileManager.default
   private let cacheDirectory: URL
   

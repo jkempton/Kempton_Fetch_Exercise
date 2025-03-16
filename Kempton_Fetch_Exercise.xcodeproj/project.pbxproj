@@ -33,11 +33,14 @@
 		8D879D072D8477FE00220E34 /* Exceptions for "Kempton_Fetch_Exercise" folder in "Kempton_Fetch_ExerciseTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"Extensions/String+Extension.swift",
+				"Extensions/View+Extension.swift",
 				Managers/AlertManager.swift,
 				Managers/DiskImageCacheManager.swift,
 				Managers/NetworkManager.swift,
 				Managers/RecipeManager.swift,
 				Models/Recipe.swift,
+				Utilities/AlertError.swift,
 				Views/CachedAsyncImageView.swift,
 				Views/ContentView.swift,
 				Views/ImageLoadingFailureView.swift,
@@ -46,6 +49,14 @@
 				Views/RecipeSearchView.swift,
 			);
 			target = 8D879CE82D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */;
+		};
+		8D879D532D865FB700220E34 /* Exceptions for "Kempton_Fetch_ExerciseTests" folder in "Kempton_Fetch_Exercise" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				DiskImageCacheManagerTests/MockDiskImageCacheManager.swift,
+				NetworkManagerTests/MockNetworkManager.swift,
+			);
+			target = 8D879CD82D8471FD00220E34 /* Kempton_Fetch_Exercise */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -60,6 +71,9 @@
 		};
 		8D879CEC2D8471FE00220E34 /* Kempton_Fetch_ExerciseTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8D879D532D865FB700220E34 /* Exceptions for "Kempton_Fetch_ExerciseTests" folder in "Kempton_Fetch_Exercise" target */,
+			);
 			path = Kempton_Fetch_ExerciseTests;
 			sourceTree = "<group>";
 		};
