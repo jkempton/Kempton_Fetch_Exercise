@@ -1,3 +1,7 @@
+### Summary: Include screen shots or a video of your app highlighting its features
+![Screenshot 2025-03-16 at 1 06 42 AM](https://github.com/user-attachments/assets/9df55c9f-80cd-4e85-99d6-016c1a0985cf)
+
+
 ### Focus Areas: What specific areas of the project did you prioritize? Why did you choose to focus on these areas?
 For this project, I focused primarily on two key requirements: "No External Dependencies" and "Efficient Network Usage" 
 (requirements #2 and #3 from the project directions). One of the main challenges was figuring out how to persist images 
