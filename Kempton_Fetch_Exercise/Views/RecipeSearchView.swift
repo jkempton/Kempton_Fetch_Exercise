@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RecipesSearchView: View {
   @Binding var searchRecipe: String
+  @Binding var scrollToTop: Bool
   var body: some View {
     TextField("", text: $searchRecipe)
       .placeholder(when: searchRecipe.isEmpty) {
@@ -23,13 +24,17 @@ struct RecipesSearchView: View {
         RoundedRectangle(cornerRadius: 8)
           .stroke(Color.gray, lineWidth: 1)
       )
-      .overlay(RecipeSearchOverlayView(searchRecipe: $searchRecipe))
+      .overlay(RecipeSearchOverlayView(searchRecipe: $searchRecipe, scrollToTop: $scrollToTop))
       .padding(.horizontal, 15)
+      .onChange(of: searchRecipe) { _ in
+        self.scrollToTop = true
+      }
   }
 }
 
 struct RecipeSearchOverlayView: View {
-  @Binding var searchRecipe: String
+  @Binding fileprivate var searchRecipe: String
+  @Binding fileprivate var scrollToTop: Bool
   var body: some View {
     HStack {
       Image(systemName: "magnifyingglass")
@@ -38,6 +43,7 @@ struct RecipeSearchOverlayView: View {
         .padding(.leading, 8)
       Button(action: {
         self.searchRecipe = ""
+        self.scrollToTop = true
       }, label: {
         Image(systemName: "multiply.circle.fill")
           .foregroundColor(Color.gray)
@@ -48,5 +54,5 @@ struct RecipeSearchOverlayView: View {
 }
 
 #Preview {
-  RecipesSearchView(searchRecipe: .constant("Pie"))
+  RecipesSearchView(searchRecipe: .constant("Pie"), scrollToTop: .constant(false))
 }
